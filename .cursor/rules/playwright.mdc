@@ -1,0 +1,15 @@
+---
+description: A ruleset for playwright mcp
+globs: 
+alwaysApply: true
+---
+
+# Playwright mcp rule
+Always add this parameters to the right tool I define when calling playwright mcp, everything else just keep default
+
+## playwright_navigate
+- browserType: "chromium"
+
+## playwright_screenshot
+- savePng: true
+- downloadsDir: "./screenshots"

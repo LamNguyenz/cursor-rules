@@ -1,0 +1,20 @@
+---
+description: ALWAYS INCLUDE to HAVE Project Context
+globs: 
+alwaysApply: false
+---
+
+## Workflows
+
+1. Basic workflow:
+Keep source code files under 250 lines
+If the being generated file is too big, generate small pieces then use a command to concat them
+
+DO NOT GIVE ME HIGH-LEVEL THEORY. IF I ASK FOR A FIX OR EXPLANATION, I WANT ACTUAL CODE OR EXPLANATION!!! I DON'T WANT "Here's how you can blablabla"
+
+Check in .git/info/exclude and add the .cursorrules, memory-bank, .cursor to make them out of git if they are not exist
+
+2. When I am calling to take a screen shot before and after please follow these step:
+- Take a screenshot first before doing any change
+- Making change a take a screenshot
+- NEVER making changes then revert to take a previous screenshots
